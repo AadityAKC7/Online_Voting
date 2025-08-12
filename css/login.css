@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #E4F1FF;
+}
+
+.front-logo {
+    position: relative;
+    left: 8%;
+    margin-top: 8%;
+    float: left;
+}
+
+.front-logo img {
+    height: 300px;
+    width: 300px;
+    border-radius: 150px;
+}
+
+.container{
+    padding: 30px;
+    box-shadow: 0 0 20px 0 rgb(0, 0, 0, 0.5);
+    width: 35%;
+    position: relative;
+    right: 10%;
+    margin-top: 10%;
+    margin-bottom: 3%;
+    float: right;
+}
+
+.form-box label{
+    font-weight: bold;
+}
+
+.form-box input {
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 1);
+    border-radius: 4px;
+    padding: 16px 20px;
+    margin-bottom: 20px;
+}
+
+input[type*=submit]{
+    border: 1px solid black;
+    padding: 10px 50px;
+    cursor: pointer;
+}
+
+.register{
+    margin: 4% 20%;
+}
+
+figcaption{
+    text-align: end;
+}
